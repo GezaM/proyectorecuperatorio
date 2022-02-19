@@ -13,6 +13,9 @@ module.exports = (sequelize, dataTypes) => {
         awards : {
             type: dataTypes.INTEGER,
         },
+        length : {
+            type: dataTypes.INTEGER,
+        },
         title: {
             type: dataTypes.STRING(500)
         }, 

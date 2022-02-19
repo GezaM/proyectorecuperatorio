@@ -37,12 +37,12 @@ module.exports = (sequelize, dataTypes) => {
     }
     alias.associate = function () {
         alias.belongsTo(Genre, {
-            as: "Genre",
+            as: "genre",
             foreignKey: "genre_id",
         })}
     alias.associate = function () {
         alias.hasMany(Season, {
-            as: "Season",
+            as: "season",
             foreignKey: "serie_id",
         })}
 

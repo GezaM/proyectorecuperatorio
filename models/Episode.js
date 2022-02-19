@@ -26,7 +26,7 @@ module.exports = (sequelize, dataTypes) => {
             allowNull: false
         },
         release_date: {
-            type: Sequelize.DATE 
+            type: dataTypes.DATE 
         },
         rating:{
             type: dataTypes.DECIMAL,
